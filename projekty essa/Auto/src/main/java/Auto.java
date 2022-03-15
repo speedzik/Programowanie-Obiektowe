@@ -8,14 +8,17 @@ public class Auto {
     boolean stansilnika;
 
 
-    Auto(String nazwa, String typ, double pojemnosc, int rocznik, int pojemnosc_baku, String kolor){
+    Auto(String nazwa, String typ, double pojemnosc, int rocznik, int pojemnosc_baku, String kolor, boolean stansilnik){
         this.nazwa = nazwa;
         this.typ = typ;
         this.pojemnosc = pojemnosc;
         this.pojemnosc_baku = pojemnosc_baku;
         this.kolor = kolor;
+        this.stansilnika = stansilnika;
     }
         void stansilnika(){
+            stansilnika = false;
+          
 
         }
 
